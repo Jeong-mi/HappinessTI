@@ -14,18 +14,44 @@ data : heroku(https://happiness-ti-data.herokuapp.com/)
 
 ## 프로젝트 구성 안내
 
-행복 Ti 검사를 통해 자신과 같은 행복도를 가진 나라의 특징을 시각화된 자료로 확인하고 얼마나 많은 사람들이 해당 행복도를 가지고 있는지 알 수 있는 사이트 입니다.
-
-* `초기 기획은 언제든 수정될 수 있으니 웹서비스 결과를 내는데 초점을 두시기 바랍니다.`
-
 ## 1. 프로젝트 소개
 
-**어떠한 데이터셋와 도구 및 기술을 사용했는지에 대한 설명과 엔드유저에게 보이는 웹서비스에 대한 소개**
+### **주 타겟층 ?**   
+자신이 얼마나 행복한지 알고 싶은 사람,
+자신과 같은 행복도를 가진 나라가 어디인지 알고 싶은 사람,
+어떤 나라가 왜 행복도가 낮은지, 또는 높은지 이유를 알고 싶은 사람
 
-  - 사용하려는 데이터(제안된 데이터 중 하나 또는 선택한 다른 데이터 세트)를 명시, 이에 대한 설명
-  - 기술 스택 (python, d3, pandas, jupyter, javascript, MySQL 등)
-  - 사용된 라이브러리 (numpy, matplotlib, wordcloud 등)
-  - 웹서비스에 대한 자세한 개요
+### **`데이터세트`**
+
+**[kaggle의 World Happiness Report up to 2022](https://www.kaggle.com/datasets/mathurinache/world-happiness-report)**
+
+- 2015년 ~ 2022년동안 갤럽 세계 여론 조사(GWP)의 주요 생활 평가 질문 응답의 전국 평균을 낸 총 153개국의 행복 스코어
+
+### **`가설 설정`**
+  > **행복을 유형화할 수 있을까?**
+
+  - GDP per capita 
+  - Social support 
+  - Healthy life expectancy
+  - Freedom to make life choices
+  - Generosity
+  - Perceptions of corruption   
+  
+  위 6개 요인들이 개인의 행복도에 영향을 준다. 즉 해당 데이터로 개인의 행복의 정도를 특징별로 분류할 수 있다.
+  
+  년도, 사회적 지지, 건강 , 어느 나라에 살고 있는지 등 다양한 지표들을 알고있기만 한다면 나의 행복도가 세계에서 상위 몇퍼센트에 속하는지 , 나와 비슷한 행복도를 가진 나라는 어디인지 시각화된 자료와 함께 알 수 있을 것이다.
+
+따라서 MBTI 처럼 행복의 유형을 나라별로 나누어 유형화 할 수 있을것이다.
+
+### **`사용 라이브러리`**
+pandas / numpy / scipy / matpotlibt / searborn / plotly_express / pycountry
+
+데이터 분석 종류 
+   1. 시각화
+   2. 통계분석 -> anova 검정
+
+### **`스토리보드 & 시나리오`**
+[figma UI 디자인](https://www.figma.com/file/IYTcOOUjIc4w0uKgeaJ82I/crashing-dev?node-id=0%3A1)
 
 ## 2. 프로젝트 목표
 
@@ -37,9 +63,19 @@ data : heroku(https://happiness-ti-data.herokuapp.com/)
 
 ## 3. 프로젝트 기능 설명
 
-**웹서비스의 유용성, 편의성 및 시각화의 실용성에 대한 설명**
-  - 주요 기능 (주된 활용성) 및 서브 기능
-  - 프로젝트만의 차별점, 기대 효과
+### **`메인 기능`**
+  1. 행복Ti 설문조사 : 행복TI를 도출하기 위해 엄선한 총 25개의 질문을 입력받고 결과를 도출한다.
+  2. 행복Ti 시각화 : 사용자의 행복Ti와 같은 행복도를 가진 나라를 시각화하여 상위 몇 퍼센트까지 표시하여 구체적으로 보여준다.
+  3. 전체 나라별 행복도 시각화 : 행복도에 가장 많은 영향을 주는 요인과 년도별 추이 그리고 나라별, 대륙별 행복도를 시각화하여 나타낸다.
+  
+### **`서브 기능`**
+  1. 행복 Ti top5 리스트 : 행복 TI 설문조사의 결과 중, 가장 많이 나온 나라 top5를 랭킹으로 제공합니다.
+  2. 자신의 행복 Ti를 확인 : 마이페이지에서 행복Ti 로그를 확인할 수 있다.
+  3. 전체 국가의 행복 리스트 확인 : 각 나라의 행복도 정보를 확인할 수 있다.
+  4. 팀 소개 페이지 : 개발 팀 소개 페이지
+  
+### **`프로젝트만의 차별점, 기대효과`**
+ 
 
 ## 4. 프로젝트 구성도
 [figma](https://www.figma.com/file/IYTcOOUjIc4w0uKgeaJ82I/crashing-dev?node-id=0%3A1)
