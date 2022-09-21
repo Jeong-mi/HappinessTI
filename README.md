@@ -10,6 +10,8 @@ data : heroku(https://happiness-ti-data.herokuapp.com/)
 
 당신의 성격을 MBTI로 확인하듯이, 당신의 행복을 행복 Ti로 확인해보세요!
 
+![메인화면](https://user-images.githubusercontent.com/56066290/191168852-87463739-79b0-4d33-858a-76a18522334a.gif)
+
 현재 배포 : http://elice-kdt-ai-4th-team14.elicecoding.com/
 
 ## 프로젝트 구성 안내
@@ -82,7 +84,13 @@ pandas / numpy / scipy / matpotlibt / searborn / plotly_express / pycountry
 ## 4. 프로젝트 구성도
 [figma](https://www.figma.com/file/IYTcOOUjIc4w0uKgeaJ82I/crashing-dev?node-id=0%3A1)
 
-화면 캡쳐해서 짧게 페이지 설명 달기
+**행복 TI 설문조사**
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/56066290/191170711-b5ebb956-4f01-4651-9de4-763d1b8a5a01.gif)
+
+
+<img src="https://user-images.githubusercontent.com/56066290/191169265-dac33d80-3289-4309-8c96-ed718b34726d.png" width="500" /><img src="https://user-images.githubusercontent.com/56066290/191169329-58d2ae3f-726f-417a-942d-071c6367a8d4.png" width="500" />
+<img src="https://user-images.githubusercontent.com/56066290/191169469-182e9f1c-1db5-4f62-94cf-88b54b1622fe.png" width="500" /><img src="https://user-images.githubusercontent.com/56066290/191169529-3ac023ea-80fa-4648-82bb-ccc9e61113ad.png" width="500" />
 
 ## 5. 프로젝트 팀원 역할 분담
 | 이름 | 역할 |
