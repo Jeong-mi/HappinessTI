@@ -86,11 +86,7 @@ pandas / numpy / scipy / matpotlibt / searborn / plotly_express / pycountry
 
 **행복 TI 설문조사**
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/56066290/191170711-b5ebb956-4f01-4651-9de4-763d1b8a5a01.gif)
-
-
-<img src="https://user-images.githubusercontent.com/56066290/191169265-dac33d80-3289-4309-8c96-ed718b34726d.png" width="500" /><img src="https://user-images.githubusercontent.com/56066290/191169329-58d2ae3f-726f-417a-942d-071c6367a8d4.png" width="500" />
-<img src="https://user-images.githubusercontent.com/56066290/191169469-182e9f1c-1db5-4f62-94cf-88b54b1622fe.png" width="500" /><img src="https://user-images.githubusercontent.com/56066290/191169529-3ac023ea-80fa-4648-82bb-ccc9e61113ad.png" width="500" />
+<img src="https://user-images.githubusercontent.com/56066290/191169529-3ac023ea-80fa-4648-82bb-ccc9e61113ad.png" width="500" />
 
 ## 5. 프로젝트 팀원 역할 분담
 | 이름 | 역할 |
